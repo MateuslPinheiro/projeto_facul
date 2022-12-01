@@ -1,0 +1,9 @@
+4) preencha as lacunas, conforme se trate de classes (A)bstratas ou (I)nterfaces:
+(I) Atributos estáticos e de instância
+(A) Métodos concretos e/ou abstratos
+(I) Atributos estáticos finais (constantes)
+(I) Todos os métodos são abstratos
+(A) Herança única (via extends)
+(A) Possuem construtor
+(I) Herança múltipla (via implements)
+(I) Não possuem construtor

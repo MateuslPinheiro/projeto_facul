@@ -1,0 +1,86 @@
+1.
+Responda às seguintes questões:
+a. O que é uma classe abstrata?
+( ) Uma classe abstrata é uma sem classes filhas.
+( ) Uma classe abstrata é qualquer classe pai com mais de uma classe filha.
+(X) classe abstrata é classe que não pode ser instanciada, mas pode ser uma classe base.
+( ) Uma classe abstrata é outro nome para "classe base".
+
+
+b. O que é um método abstrato?
+( ) Um método abstrato é qualquer método em uma classe abstrata.
+( ) Um método abstrato é um método que não pode ser herdado.
+(X) Um método abstrato é um método sem um corpo declarado e com a palavra reservada abstract.
+( ) Um método abstrato é um método na classe filho que anula um método pai.
+
+
+c. Uma classe abstrata pode definir métodos abstratos e métodos não abstratos?
+( ) Não, deve ter tudo um ou outro.
+( ) Não, deve ter todos os métodos abstratos.
+( ) Sim - mas as classes filhas não herdam métodos abstratos.
+(X) Sim - as classes filhas herdam ambas.
+
+
+d. Uma classe abstrata pode ter filhos não-abstratos?
+( ) Não, um pai abstrato deve ter apenas filhos abstratos.
+( ) Não, um pai abstrato não pode ter filhos.
+( ) Sim, todas as crianças de um pai abstrato devem ser não-abstratas.
+(X) Sim, um pai abstrato pode ter filhos abstratos e não-abstratos
+
+
+e. Qual dos seguintes é FALSO sobre classes abstratas em Java.
+( ) Se derivarmos uma classe abstrata e não implementarmos todos os métodos abstratos, a classe
+derivada também deve ser marcada como abstrata usando a palavra-chave 'abstract'.
+( ) As classes abstratas podem ter construtores.
+( ) Uma classe pode ser abstrata sem nenhum método abstrato.
+(X) Uma classe pode herdar de várias classes abstratas.
+
+
+f. O que a seguir é verdadeiro sobre interfaces em java.
+(F) Uma interface é semelhante a uma classe, mas só pode conter membros públicos, estáticos e atributos
+finais (ou seja, constantes)
+(V) .... métodos públicos, abstratos (ou seja, apenas cabeçalhos de métodos, sem corpos)
+(F) Pode-se criar uma instância de interface.
+(V) Uma classe pode implementar várias interfaces.
+(V) Muitas classes podem implementar a mesma interface.
+
+
+g. Escolha a opção incorreta:
+( ) Uma classe pode implementar mais de uma interface
+(X) Uma classe pode estender mais de uma classe
+( ) Uma interface pode estender mais de uma interface
+( ) Uma interface não pode estender uma classe
+
+
+h. Uma subclasse é colocada em um pacote diferente da super-classe. Você deseja permitir que a
+subclasse acesse um método definido na super-classe. O(s) especificador(es) de acesso correto(s) para
+este método é/são:
+( ) apenas público
+( ) protegido apenas
+(X) público e protegido
+( ) private, público e protegido
+
+
+i. Os únicos campos que podem aparecer em uma interface devem ser declarados estático ou final.
+( ) Verdade
+(X) Falso
+
+j. Os métodos em uma interface são implicitamente protected.
+( ) Verdade
+(X) Falso
+
+k. Uma interface pode herdar de uma outra interface.
+(X) Verdade
+( ) Falso
+
+l. Uma classe abstrata pode herdar de uma interface.
+( ) Verdade
+(X) Falso
+
+m. Uma classe pode implementar uma interface.
+(X) Verdade
+( ) Falso
+
+n. public interface Hockey extends Sports, Football. Isso é correto?
+(X) Verdade
+( ) Falso
