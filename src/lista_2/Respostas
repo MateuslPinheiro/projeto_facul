@@ -1,0 +1,31 @@
+1. Semelhanças entre interface e classe abstrata:
+- Ambas são usadas como "contratos" para que as subclasses mantenham seus padrões.
+- Não se pode criar objetos dessas classes
+
+1.1 Diferenças entre interface e classe abstrata:
+- Interface tem herança múltipla, classe não
+- Classe pode conter instância, interface só constante estática
+- Interface todas os métodos são abstratos, na Classe, pelo menos 1.
+- Interface todas os métodos devem ser públicas ou estáticos
+
+1. Bola Bola = new Futebol();
+Irá compilar
+
+
+2. Bola Bola = new Futebol();
+Beisebol beisebol = (Beisebol)bola;
+Irá compilar
+
+
+3. Object obj = new Beisebol();
+Não irá compilar
+
+
+4. Object obj = new Beisebol();
+Arremessavel arremessavel = obj;
+
+
+
+5. Arremessavel arremessavel = new Beisebol();
+Objeto obj = arremessavel
+Irá compilar
